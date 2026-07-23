@@ -63,7 +63,7 @@ export default function Navbar({ data }) {
         </nav>
 
         <div className="flex items-center gap-3">
-          <ThemeToggle className="hidden sm:flex" />
+          {/* <ThemeToggle className="hidden sm:flex" /> */}
           <a
             href={whatsappHref}
             target="_blank"
