@@ -1,5 +1,6 @@
 import { FiInstagram, FiMail, FiMapPin } from 'react-icons/fi';
 
+
 export default function Footer({ data }) {
   return (
     <footer className="py-10 border-t border-secondary/10 dark:border-white/10">
@@ -26,7 +27,7 @@ export default function Footer({ data }) {
         </div>
       </div>
       <p className="text-center text-xs text-secondary/40 dark:text-white/30 mt-6">
-        © {new Date().getFullYear()} {data.text}. Todos os direitos reservados.
+        © {new Date().getFullYear()} <a title='MartinnsDev' target='_blank' href='https://instagram.com/martinns.dev'>MartinnsDev</a> Todos os direitos reservados.
       </p>
     </footer>
   );
