@@ -1,0 +1,244 @@
+{
+  "intro": {
+    "enabled": true,
+    "phrases": [
+      "Sua empresa não precisa de sorte.",
+      "Precisa de estratégia.",
+      "Organização. Clareza. Resultado.",
+      "HM Soluções Empresariais."
+    ]
+  },
+  "theme": {
+    "primary": "#B38C41",
+    "secondary": "#011923"
+  },
+  "navbar": {
+    "logoText": "HM Soluções",
+    "logoBadge": "Empresariais",
+    "ctaText": "Fale com um especialista",
+    "whatsappNumber": "5588999999999"
+  },
+  "hero": {
+    "eyebrow": "Assessoria & Consultoria Empresarial",
+    "title": "Sua empresa não precisa de sorte. Precisa de estratégia.",
+    "highlight": "estratégia",
+    "subtitle": "Ajudamos empresas a organizarem processos, reduzirem custos e crescerem com previsibilidade através de consultoria empresarial de alta performance.",
+    "ctaPrimaryText": "Quero uma consultoria",
+    "ctaSecondaryText": "Conhecer os serviços",
+    "stats": [
+      {
+        "label": "Empresas atendidas",
+        "value": "120+"
+      },
+      {
+        "label": "Anos de mercado",
+        "value": "8"
+      },
+      {
+        "label": "Satisfação dos clientes",
+        "value": "98%"
+      }
+    ]
+  },
+  "about": {
+    "tag": "Quem está por trás",
+    "name": "Hallysson Martins",
+    "role": "Fundador & Consultor-chefe da HM Soluções Empresariais",
+    "photo": "/uploads/f764beff-beeb-45d0-b403-755d0fc54f31.jpg",
+    "badge": "Especialista Certificado",
+    "bio": "Com mais de 8 anos de atuação no mercado, ajudo empresários a saírem da operação e assumirem o papel de estrategistas dos seus próprios negócios. Já apoiei dezenas de empresas na estruturação financeira, comercial e de gestão, sempre com foco em resultado real e mensurável.",
+    "stats": [
+      {
+        "label": "Clientes ativos",
+        "value": "40+"
+      },
+      {
+        "label": "Projetos entregues",
+        "value": "200+"
+      },
+      {
+        "label": "Faturamento gerido",
+        "value": "R$ 15M+"
+      },
+      {
+        "label": "Nota média dos clientes",
+        "value": "4.9/5"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "O que fazemos",
+    "title": "Serviços prestados",
+    "subtitle": "Soluções completas para quem quer abrir, regularizar ou organizar a vida fiscal — como MEI, pessoa física ou empresa.",
+    "categories": [
+      {
+        "title": "Consultoria",
+        "items": [
+          "Consultoria Pontual (para sanar dúvidas)",
+          "Consultoria Prévia de Formalização para MEI",
+          "Consultoria Financeira para MEI e Profissionais Liberais",
+          "Consultoria Tributária"
+        ]
+      },
+      {
+        "title": "MEI",
+        "items": [
+          "Solicitação de Alvará de Funcionamento",
+          "Declaração Anual de Faturamento",
+          "Emissão de Notas Fiscais",
+          "Emissão de Certificado Digital",
+          "Abertura e Baixa de CNPJ",
+          "Regularização de Débitos e Pendências Federais",
+          "Desenquadramento de MEI para ME",
+          "Assessoria e Acompanhamento Mensal"
+        ]
+      },
+      {
+        "title": "Pessoa Física",
+        "items": [
+          "Declaração de Imposto de Renda (IRPF)",
+          "Regularização no CPF e Receita Federal",
+          "Emissão de IPVA",
+          "Emissão de segunda via de CPF"
+        ]
+      },
+      {
+        "title": "Empresas",
+        "items": [
+          "Legalização, Alteração e Baixa de Empresas ME e EPP",
+          "Regularização de Débitos Tributários",
+          "Planejamento Tributário"
+        ]
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Marcos Ribeiro",
+      "role": "CEO - Ribeiro Distribuidora",
+      "photo": "/uploads/avatar-placeholder-1.svg",
+      "rating": 5,
+      "text": "A HM Soluções reorganizou completamente nossos processos financeiros. Em 4 meses reduzimos 22% dos custos operacionais sem perder qualidade."
+    },
+    {
+      "name": "Fernanda Alves",
+      "role": "Diretora - Alves Confecções",
+      "photo": "/uploads/avatar-placeholder-2.svg",
+      "rating": 5,
+      "text": "Profissionalismo do início ao fim. A consultoria trouxe clareza para decisões que estávamos adiando há anos."
+    },
+    {
+      "name": "Rodrigo Camelo",
+      "role": "Sócio - Camelo Engenharia",
+      "photo": "/uploads/avatar-placeholder-3.svg",
+      "rating": 5,
+      "text": "Depois da assessoria da HM conseguimos estruturar um planejamento de crescimento sólido pra os próximos 3 anos."
+    },
+    {
+      "name": "Juliana Prado",
+      "role": "Fundadora - Prado Estética",
+      "photo": "/uploads/avatar-placeholder-4.svg",
+      "rating": 5,
+      "text": "Equipe extremamente atenciosa e técnica. Recomendo para qualquer empresário que queira profissionalizar a gestão."
+    }
+  ],
+  "charts": {
+    "area": [
+      {
+        "name": "Jan",
+        "receita": 42
+      },
+      {
+        "name": "Fev",
+        "receita": 48
+      },
+      {
+        "name": "Mar",
+        "receita": 55
+      },
+      {
+        "name": "Abr",
+        "receita": 61
+      },
+      {
+        "name": "Mai",
+        "receita": 70
+      },
+      {
+        "name": "Jun",
+        "receita": 82
+      }
+    ],
+    "bar": [
+      {
+        "name": "Financeiro",
+        "impacto": 90
+      },
+      {
+        "name": "Comercial",
+        "impacto": 78
+      },
+      {
+        "name": "Processos",
+        "impacto": 85
+      },
+      {
+        "name": "Gestão",
+        "impacto": 72
+      }
+    ],
+    "pie": [
+      {
+        "name": "Consultoria Financeira",
+        "value": 35
+      },
+      {
+        "name": "Gestão de Processos",
+        "value": 25
+      },
+      {
+        "name": "Estratégia Comercial",
+        "value": 25
+      },
+      {
+        "name": "Planejamento Tributário",
+        "value": 15
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Quais tipos de empresa a HM Soluções atende?",
+      "answer": "Atendemos pequenas e médias empresas de diversos segmentos, com foco em negócios que faturam a partir de R$ 30 mil por mês e desejam profissionalizar a gestão."
+    },
+    {
+      "question": "Como funciona o processo de consultoria?",
+      "answer": "Começamos com um diagnóstico completo do negócio, identificamos os principais gargalos e construímos um plano de ação personalizado, com acompanhamento periódico dos resultados."
+    },
+    {
+      "question": "Quanto tempo dura uma consultoria?",
+      "answer": "Depende do escopo, mas normalmente trabalhamos com contratos de 3 a 12 meses, com entregas e indicadores definidos desde o início."
+    },
+    {
+      "question": "Vocês atendem empresas de qualquer estado?",
+      "answer": "Sim, atendemos empresas em todo o Brasil de forma remota, além de atendimento presencial em algumas regiões."
+    },
+    {
+      "question": "Como faço para solicitar um orçamento?",
+      "answer": "Basta clicar em um dos botões de WhatsApp nesta página e falar diretamente com nossa equipe. O primeiro diagnóstico é sem compromisso."
+    }
+  ],
+  "ctaFinal": {
+    "title": "Pronto para dar o próximo passo?",
+    "subtitle": "Fale agora mesmo com nossa equipe e descubra como podemos ajudar sua empresa a crescer com estrutura e segurança.",
+    "buttonText": "Chamar no WhatsApp",
+    "whatsappNumber": "5588999999999",
+    "whatsappMessage": "Olá! Vim pelo site e gostaria de saber mais sobre a consultoria da HM Soluções Empresariais."
+  },
+  "footer": {
+    "text": "HM Soluções Empresariais — Assessoria e Consultoria",
+    "instagram": "https://instagram.com/hmsolucoesempresariais",
+    "email": "contato@hmsolucoes.com.br",
+    "city": "Nova Russas - CE"
+  }
+}
