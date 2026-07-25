@@ -98,7 +98,7 @@ export default function Navbar({ data }) {
               {link.label}
             </a>
           ))}
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
           <a
             href={whatsappHref}
             target="_blank"
