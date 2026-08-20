@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 import WhatsAppFloatButton from '../components/WhatsAppFloatButton';
 
 export default function Home() {
-  const content = getContent();
+  const content = await getContent();
 
   return (
     // IMPORTANTE: overflow-x-hidden NÃO pode ficar no mesmo elemento que envolve a

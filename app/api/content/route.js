@@ -3,12 +3,21 @@ import { getContent, saveContent } from '../../../lib/content';
 import { AUTH_COOKIE_NAME, isValidSessionToken } from '../../../lib/auth';
 import { cookies } from 'next/headers';
 
-// Evita que o Next.js otimize esta rota como estática (o que bloquearia o método PUT)
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
-  const content = getContent();
-  return NextResponse.json(content);
+  try {
+    const content = await getContent();
+
+    return NextResponse.json(content);
+  } catch (err) {
+    console.error('ERRO AO CARREGAR CONTEÚDO:', err);
+
+    return NextResponse.json(
+      { error: 'Erro ao carregar conteúdo' },
+      { status: 500 }
+    );
+  }
 }
 
 export async function PUT(request) {

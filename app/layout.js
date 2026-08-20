@@ -10,7 +10,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const content = getContent();
+  const content = await getContent();
   const themeVars = buildThemeVars(content.theme.primary, content.theme.secondary);
   const cssVars = Object.entries(themeVars)
     .map(([key, value]) => `${key}: ${value};`)
