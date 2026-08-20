@@ -9,7 +9,7 @@ export const metadata = {
     'Consultoria e assessoria empresarial para empresas que querem crescer com estrutura, estratégia e previsibilidade.',
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
   const content = await getContent();
   const themeVars = buildThemeVars(content.theme.primary, content.theme.secondary);
   const cssVars = Object.entries(themeVars)

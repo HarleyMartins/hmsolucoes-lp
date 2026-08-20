@@ -11,7 +11,7 @@ import CTAFinal from '../components/CTAFinal';
 import Footer from '../components/Footer';
 import WhatsAppFloatButton from '../components/WhatsAppFloatButton';
 
-export default function Home() {
+export default async function Home() {
   const content = await getContent();
 
   return (
