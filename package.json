@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/blob": "^2.8.0",
     "framer-motion": "11.3.19",
     "next": "14.2.35",
     "next-themes": "0.3.0",
