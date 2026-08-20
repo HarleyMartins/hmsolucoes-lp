@@ -22,6 +22,14 @@ export async function PUT(request) {
     const saved = saveContent(body);
     return NextResponse.json({ ok: true, content: saved });
   } catch (err) {
-    return NextResponse.json({ error: 'Payload inválido' }, { status: 400 });
-  }
+  console.error('ERRO AO SALVAR:', err);
+
+  return NextResponse.json(
+    {
+      error: 'Erro ao salvar conteúdo',
+      details: err instanceof Error ? err.message : String(err),
+    },
+    { status: 500 }
+  );
+}
 }
